@@ -14,6 +14,7 @@ class LoginForm extends React.Component {
         loading: false,
         errors: {}
     };
+    
     // use this event for all text fields in general
     onChange = e => this.setState(
         { 
